@@ -1,6 +1,7 @@
 MapReduce
 =========
 Normalize the enron data
+
 1. Run "make" with "preprocess.cpp" and "topnodes.cpp" in the same directory.
 2. Run "preproc > enron" with "Email-Enron.txt" in the same directory.
 
@@ -13,6 +14,7 @@ Run FindTriangle on normalized data
 5. Run "bin/hadoop fs -get out enronout"
 
 Find the 10 top most frequently appearing nodes
+
 1. Run "topnodes" with "enronout" in the same directory.
 2. The 10 top nodes with how many times they appear are written to standard output
 
